@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace FormulaOne.Entities.Abstract
 {
-    public interface IEntity
+    public abstract class IEntity
     {
         
     }

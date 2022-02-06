@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace FormulaOne.DataAccess.Abstract
 {
-    public interface IEntityRepository<T> where T:class, IEntity, new()
+    public interface IEntityRepository<T> where T:IEntity
     {
         List<T> GetAll(Expression<Func<T, bool>> filter=null);
         T Get(Expression<Func<T, bool>> filter);

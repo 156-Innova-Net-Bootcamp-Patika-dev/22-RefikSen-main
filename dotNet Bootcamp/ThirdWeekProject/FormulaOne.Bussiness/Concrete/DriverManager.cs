@@ -9,55 +9,14 @@ using System.Text;
 using System.Threading.Tasks;
 using FormulaOne.DataAccess.Models;
 using System.Linq.Expressions;
+using FormulaOne.Bussiness.Abstract.Common;
 
 namespace FormulaOne.Business.Concrete
 {
-    public class DriverManager : IDriverService
+    public class DriverManager : RepositoryService<Driver>, IDriverService
     {
-        private IDriverDal _driverDal;
-        public DriverManager(IDriverDal driverDal)
+        public DriverManager(IEntityRepository<Driver> entityRepository) : base(entityRepository)
         {
-            _driverDal = driverDal;
         }
-
-        public List<Driver> GetAll()
-        {
-            return _driverDal.GetAll();
-        }
-
-        public void Add(Driver driver)
-        {
-            using (FormulaOneContext context = new())
-            {
-                context.Add(driver);
-                context.SaveChanges();
-            }
-        }
-        public void Update(Driver driver)
-        {
-            using (FormulaOneContext context = new())
-            {
-                context.Update(driver);
-                context.SaveChanges();
-            }
-        }
-        public void Delete(Driver driver)
-        {
-            using (FormulaOneContext context = new())
-            {
-                context.Remove(driver);
-                context.SaveChanges();
-            }
-        }
-
-        public Driver Get(Expression<Func<Driver, bool>> filter)
-        {
-            using (FormulaOneContext context = new())
-            {
-                return context.Set<Driver>().SingleOrDefault(filter);
-            }
-        }
-
-
     }
 }

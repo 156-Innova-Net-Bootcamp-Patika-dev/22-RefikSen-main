@@ -13,3 +13,17 @@ C:\Users\refik\source\repos\FormulaOneApp\FormulaOne.DataAccess\obj\Debug\net5.0
 C:\Users\refik\source\repos\FormulaOneApp\FormulaOne.DataAccess\obj\Debug\net5.0\ref\FormulaOne.DataAccess.dll
 C:\Users\refik\source\repos\FormulaOneApp\FormulaOne.DataAccess\obj\Debug\net5.0\FormulaOne.DataAccess.pdb
 C:\Users\refik\source\repos\FormulaOneApp\FormulaOne.DataAccess\obj\Debug\net5.0\FormulaOne.DataAccess.csproj.CopyComplete
+C:\Users\refik\Documents\Github Repos\22-RefikSen-main\dotNet Bootcamp\ThirdWeekProject\FormulaOne.DataAccess\bin\Debug\net5.0\FormulaOne.DataAccess.deps.json
+C:\Users\refik\Documents\Github Repos\22-RefikSen-main\dotNet Bootcamp\ThirdWeekProject\FormulaOne.DataAccess\bin\Debug\net5.0\FormulaOne.DataAccess.dll
+C:\Users\refik\Documents\Github Repos\22-RefikSen-main\dotNet Bootcamp\ThirdWeekProject\FormulaOne.DataAccess\bin\Debug\net5.0\ref\FormulaOne.DataAccess.dll
+C:\Users\refik\Documents\Github Repos\22-RefikSen-main\dotNet Bootcamp\ThirdWeekProject\FormulaOne.DataAccess\bin\Debug\net5.0\FormulaOne.DataAccess.pdb
+C:\Users\refik\Documents\Github Repos\22-RefikSen-main\dotNet Bootcamp\ThirdWeekProject\FormulaOne.DataAccess\bin\Debug\net5.0\FormulaOne.Entities.dll
+C:\Users\refik\Documents\Github Repos\22-RefikSen-main\dotNet Bootcamp\ThirdWeekProject\FormulaOne.DataAccess\bin\Debug\net5.0\FormulaOne.Entities.pdb
+C:\Users\refik\Documents\Github Repos\22-RefikSen-main\dotNet Bootcamp\ThirdWeekProject\FormulaOne.DataAccess\obj\Debug\net5.0\FormulaOne.DataAccess.csproj.AssemblyReference.cache
+C:\Users\refik\Documents\Github Repos\22-RefikSen-main\dotNet Bootcamp\ThirdWeekProject\FormulaOne.DataAccess\obj\Debug\net5.0\FormulaOne.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\refik\Documents\Github Repos\22-RefikSen-main\dotNet Bootcamp\ThirdWeekProject\FormulaOne.DataAccess\obj\Debug\net5.0\FormulaOne.DataAccess.AssemblyInfoInputs.cache
+C:\Users\refik\Documents\Github Repos\22-RefikSen-main\dotNet Bootcamp\ThirdWeekProject\FormulaOne.DataAccess\obj\Debug\net5.0\FormulaOne.DataAccess.AssemblyInfo.cs
+C:\Users\refik\Documents\Github Repos\22-RefikSen-main\dotNet Bootcamp\ThirdWeekProject\FormulaOne.DataAccess\obj\Debug\net5.0\FormulaOne.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\refik\Documents\Github Repos\22-RefikSen-main\dotNet Bootcamp\ThirdWeekProject\FormulaOne.DataAccess\obj\Debug\net5.0\FormulaOne.DataAccess.dll
+C:\Users\refik\Documents\Github Repos\22-RefikSen-main\dotNet Bootcamp\ThirdWeekProject\FormulaOne.DataAccess\obj\Debug\net5.0\ref\FormulaOne.DataAccess.dll
+C:\Users\refik\Documents\Github Repos\22-RefikSen-main\dotNet Bootcamp\ThirdWeekProject\FormulaOne.DataAccess\obj\Debug\net5.0\FormulaOne.DataAccess.pdb

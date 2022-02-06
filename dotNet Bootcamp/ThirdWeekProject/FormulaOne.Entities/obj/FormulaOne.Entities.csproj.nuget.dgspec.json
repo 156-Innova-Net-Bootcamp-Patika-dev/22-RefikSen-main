@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\refik\\source\\repos\\FormulaOneApp\\FormulaOne.Entities\\FormulaOne.Entities.csproj": {}
+    "C:\\Users\\refik\\Documents\\Github Repos\\22-RefikSen-main\\dotNet Bootcamp\\ThirdWeekProject\\FormulaOne.Entities\\FormulaOne.Entities.csproj": {}
   },
   "projects": {
-    "C:\\Users\\refik\\source\\repos\\FormulaOneApp\\FormulaOne.Entities\\FormulaOne.Entities.csproj": {
+    "C:\\Users\\refik\\Documents\\Github Repos\\22-RefikSen-main\\dotNet Bootcamp\\ThirdWeekProject\\FormulaOne.Entities\\FormulaOne.Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\refik\\source\\repos\\FormulaOneApp\\FormulaOne.Entities\\FormulaOne.Entities.csproj",
+        "projectUniqueName": "C:\\Users\\refik\\Documents\\Github Repos\\22-RefikSen-main\\dotNet Bootcamp\\ThirdWeekProject\\FormulaOne.Entities\\FormulaOne.Entities.csproj",
         "projectName": "FormulaOne.Entities",
-        "projectPath": "C:\\Users\\refik\\source\\repos\\FormulaOneApp\\FormulaOne.Entities\\FormulaOne.Entities.csproj",
+        "projectPath": "C:\\Users\\refik\\Documents\\Github Repos\\22-RefikSen-main\\dotNet Bootcamp\\ThirdWeekProject\\FormulaOne.Entities\\FormulaOne.Entities.csproj",
         "packagesPath": "C:\\Users\\refik\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\refik\\source\\repos\\FormulaOneApp\\FormulaOne.Entities\\obj\\",
+        "outputPath": "C:\\Users\\refik\\Documents\\Github Repos\\22-RefikSen-main\\dotNet Bootcamp\\ThirdWeekProject\\FormulaOne.Entities\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

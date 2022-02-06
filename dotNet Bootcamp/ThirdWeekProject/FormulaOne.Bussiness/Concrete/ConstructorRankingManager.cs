@@ -9,55 +9,14 @@ using System.Text;
 using System.Threading.Tasks;
 using FormulaOne.DataAccess.Models;
 using System.Linq.Expressions;
+using FormulaOne.Bussiness.Abstract.Common;
 
 namespace FormulaOne.Business.Concrete
 {
-    public class ConstructorRankingManager : IConstructorRankingService
+    public class ConstructorRankingManager : RepositoryService<ConstructorRanking>, IConstructorRankingService
     {
-        private IConstructorRankingDal _constructorRankingDal;
-        public ConstructorRankingManager(IConstructorRankingDal constructorRankingDal)
+        public ConstructorRankingManager(IEntityRepository<ConstructorRanking> entityRepository) : base(entityRepository)
         {
-            _constructorRankingDal = constructorRankingDal;
         }
-
-        public List<ConstructorRanking> GetAll()
-        {
-            return _constructorRankingDal.GetAll();
-        }
-
-        public void Add(ConstructorRanking constructorRanking)
-        {
-            using (FormulaOneContext context = new())
-            {
-                context.Add(constructorRanking);
-                context.SaveChanges();
-            }
-        }
-        public void Update(ConstructorRanking constructorRanking)
-        {
-            using (FormulaOneContext context = new())
-            {
-                context.Update(constructorRanking);
-                context.SaveChanges();
-            }
-        }
-        public void Delete(ConstructorRanking constructorRanking)
-        {
-            using (FormulaOneContext context = new())
-            {
-                context.Remove(constructorRanking);
-                context.SaveChanges();
-            }
-        }
-
-        public ConstructorRanking Get(Expression<Func<ConstructorRanking, bool>> filter)
-        {
-            using (FormulaOneContext context = new())
-            {
-                return context.Set<ConstructorRanking>().SingleOrDefault(filter);
-            }
-        }
-
-
     }
 }

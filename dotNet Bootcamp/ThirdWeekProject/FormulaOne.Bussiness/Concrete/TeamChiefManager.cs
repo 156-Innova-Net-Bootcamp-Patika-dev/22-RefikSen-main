@@ -9,55 +9,14 @@ using System.Text;
 using System.Threading.Tasks;
 using FormulaOne.DataAccess.Models;
 using System.Linq.Expressions;
+using FormulaOne.Bussiness.Abstract.Common;
 
 namespace FormulaOne.Business.Concrete
 {
-    public class TeamChiefManager : ITeamChiefService
+    public class TeamChiefManager : RepositoryService<TeamChief>, ITeamChiefService
     {
-        private ITeamChiefDal _teamChiefDal;
-        public TeamChiefManager(ITeamChiefDal teamChiefDal)
+        public TeamChiefManager(IEntityRepository<TeamChief> entityRepository) : base(entityRepository)
         {
-            _teamChiefDal = teamChiefDal;
         }
-
-        public List<TeamChief> GetAll()
-        {
-            return _teamChiefDal.GetAll();
-        }
-
-        public void Add(TeamChief teamChief)
-        {
-            using (FormulaOneContext context = new FormulaOneContext())
-            {
-                context.Add(teamChief);
-                context.SaveChanges();
-            }
-        }
-        public void Update(TeamChief teamChief)
-        {
-            using (FormulaOneContext context = new FormulaOneContext())
-            {
-                context.Update(teamChief);
-                context.SaveChanges();
-            }
-        }
-        public void Delete(TeamChief teamChief)
-        {
-            using (FormulaOneContext context = new FormulaOneContext())
-            {
-                context.Remove(teamChief);
-                context.SaveChanges();
-            }
-        }
-
-        public TeamChief Get(Expression<Func<TeamChief, bool>> filter)
-        {
-            using (FormulaOneContext context = new FormulaOneContext())
-            {
-                return context.Set<TeamChief>().SingleOrDefault(filter);
-            }
-        }
-
-
     }
 }

@@ -15,3 +15,20 @@ C:\Users\refik\source\repos\FormulaOneApp\FormulaOne.Bussiness\obj\Debug\net5.0\
 C:\Users\refik\source\repos\FormulaOneApp\FormulaOne.Bussiness\obj\Debug\net5.0\ref\FormulaOne.Bussiness.dll
 C:\Users\refik\source\repos\FormulaOneApp\FormulaOne.Bussiness\obj\Debug\net5.0\FormulaOne.Bussiness.pdb
 C:\Users\refik\source\repos\FormulaOneApp\FormulaOne.Bussiness\obj\Debug\net5.0\FormulaOne.Bussiness.csproj.CopyComplete
+C:\Users\refik\Documents\Github Repos\22-RefikSen-main\dotNet Bootcamp\ThirdWeekProject\FormulaOne.Bussiness\bin\Debug\net5.0\FormulaOne.Bussiness.deps.json
+C:\Users\refik\Documents\Github Repos\22-RefikSen-main\dotNet Bootcamp\ThirdWeekProject\FormulaOne.Bussiness\bin\Debug\net5.0\FormulaOne.Bussiness.dll
+C:\Users\refik\Documents\Github Repos\22-RefikSen-main\dotNet Bootcamp\ThirdWeekProject\FormulaOne.Bussiness\bin\Debug\net5.0\ref\FormulaOne.Bussiness.dll
+C:\Users\refik\Documents\Github Repos\22-RefikSen-main\dotNet Bootcamp\ThirdWeekProject\FormulaOne.Bussiness\bin\Debug\net5.0\FormulaOne.Bussiness.pdb
+C:\Users\refik\Documents\Github Repos\22-RefikSen-main\dotNet Bootcamp\ThirdWeekProject\FormulaOne.Bussiness\bin\Debug\net5.0\FormulaOne.DataAccess.dll
+C:\Users\refik\Documents\Github Repos\22-RefikSen-main\dotNet Bootcamp\ThirdWeekProject\FormulaOne.Bussiness\bin\Debug\net5.0\FormulaOne.Entities.dll
+C:\Users\refik\Documents\Github Repos\22-RefikSen-main\dotNet Bootcamp\ThirdWeekProject\FormulaOne.Bussiness\bin\Debug\net5.0\FormulaOne.DataAccess.pdb
+C:\Users\refik\Documents\Github Repos\22-RefikSen-main\dotNet Bootcamp\ThirdWeekProject\FormulaOne.Bussiness\bin\Debug\net5.0\FormulaOne.Entities.pdb
+C:\Users\refik\Documents\Github Repos\22-RefikSen-main\dotNet Bootcamp\ThirdWeekProject\FormulaOne.Bussiness\obj\Debug\net5.0\FormulaOne.Bussiness.csproj.AssemblyReference.cache
+C:\Users\refik\Documents\Github Repos\22-RefikSen-main\dotNet Bootcamp\ThirdWeekProject\FormulaOne.Bussiness\obj\Debug\net5.0\FormulaOne.Bussiness.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\refik\Documents\Github Repos\22-RefikSen-main\dotNet Bootcamp\ThirdWeekProject\FormulaOne.Bussiness\obj\Debug\net5.0\FormulaOne.Bussiness.AssemblyInfoInputs.cache
+C:\Users\refik\Documents\Github Repos\22-RefikSen-main\dotNet Bootcamp\ThirdWeekProject\FormulaOne.Bussiness\obj\Debug\net5.0\FormulaOne.Bussiness.AssemblyInfo.cs
+C:\Users\refik\Documents\Github Repos\22-RefikSen-main\dotNet Bootcamp\ThirdWeekProject\FormulaOne.Bussiness\obj\Debug\net5.0\FormulaOne.Bussiness.csproj.CoreCompileInputs.cache
+C:\Users\refik\Documents\Github Repos\22-RefikSen-main\dotNet Bootcamp\ThirdWeekProject\FormulaOne.Bussiness\obj\Debug\net5.0\FormulaOne.Bussiness.csproj.CopyComplete
+C:\Users\refik\Documents\Github Repos\22-RefikSen-main\dotNet Bootcamp\ThirdWeekProject\FormulaOne.Bussiness\obj\Debug\net5.0\FormulaOne.Bussiness.dll
+C:\Users\refik\Documents\Github Repos\22-RefikSen-main\dotNet Bootcamp\ThirdWeekProject\FormulaOne.Bussiness\obj\Debug\net5.0\ref\FormulaOne.Bussiness.dll
+C:\Users\refik\Documents\Github Repos\22-RefikSen-main\dotNet Bootcamp\ThirdWeekProject\FormulaOne.Bussiness\obj\Debug\net5.0\FormulaOne.Bussiness.pdb

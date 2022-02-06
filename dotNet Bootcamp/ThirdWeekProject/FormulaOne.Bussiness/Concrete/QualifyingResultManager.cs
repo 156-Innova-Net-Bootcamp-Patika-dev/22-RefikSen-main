@@ -9,55 +9,14 @@ using System.Text;
 using System.Threading.Tasks;
 using FormulaOne.DataAccess.Models;
 using System.Linq.Expressions;
+using FormulaOne.Bussiness.Abstract.Common;
 
 namespace FormulaOne.Business.Concrete
 {
-    public class QualifyingResultManager : IQualifyingResultService
+    public class QualifyingResultManager : RepositoryService<QualifyingResult>, IQualifyingResultService
     {
-        private IQualifyingResultDal _qualifyingResultDal;
-        public QualifyingResultManager(IQualifyingResultDal qualifyingResultDal)
+        public QualifyingResultManager(IEntityRepository<QualifyingResult> entityRepository) : base(entityRepository)
         {
-            _qualifyingResultDal = qualifyingResultDal;
         }
-
-        public List<QualifyingResult> GetAll()
-        {
-            return _qualifyingResultDal.GetAll();
-        }
-
-        public void Add(QualifyingResult qualifyingResult)
-        {
-            using (FormulaOneContext context = new FormulaOneContext())
-            {
-                context.Add(qualifyingResult);
-                context.SaveChanges();
-            }
-        }
-        public void Update(QualifyingResult qualifyingResult)
-        {
-            using (FormulaOneContext context = new FormulaOneContext())
-            {
-                context.Update(qualifyingResult);
-                context.SaveChanges();
-            }
-        }
-        public void Delete(QualifyingResult qualifyingResult)
-        {
-            using (FormulaOneContext context = new FormulaOneContext())
-            {
-                context.Remove(qualifyingResult);
-                context.SaveChanges();
-            }
-        }
-
-        public QualifyingResult Get(Expression<Func<QualifyingResult, bool>> filter)
-        {
-            using (FormulaOneContext context = new FormulaOneContext())
-            {
-                return context.Set<QualifyingResult>().SingleOrDefault(filter);
-            }
-        }
-
-
     }
 }

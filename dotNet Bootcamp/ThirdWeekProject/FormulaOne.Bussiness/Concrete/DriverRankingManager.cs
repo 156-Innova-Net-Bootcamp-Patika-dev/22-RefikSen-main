@@ -9,55 +9,14 @@ using System.Text;
 using System.Threading.Tasks;
 using FormulaOne.DataAccess.Models;
 using System.Linq.Expressions;
+using FormulaOne.Bussiness.Abstract.Common;
 
 namespace FormulaOne.Business.Concrete
 {
-    public class DriverRankingManager : IDriverRankingService
+    public class DriverRankingManager : RepositoryService<DriverRanking>, IDriverRankingService
     {
-        private IDriverRankingDal _driverRankingDal;
-        public DriverRankingManager(IDriverRankingDal driverRankingDal)
+        public DriverRankingManager(IEntityRepository<DriverRanking> entityRepository) : base(entityRepository)
         {
-            _driverRankingDal = driverRankingDal;
         }
-
-        public List<DriverRanking> GetAll()
-        {
-            return _driverRankingDal.GetAll();
-        }
-
-        public void Add(DriverRanking driverRanking)
-        {
-            using (FormulaOneContext context = new FormulaOneContext())
-            {
-                context.Add(driverRanking);
-                context.SaveChanges();
-            }
-        }
-        public void Update(DriverRanking driverRanking)
-        {
-            using (FormulaOneContext context = new FormulaOneContext())
-            {
-                context.Update(driverRanking);
-                context.SaveChanges();
-            }
-        }
-        public void Delete(DriverRanking driverRanking)
-        {
-            using (FormulaOneContext context = new FormulaOneContext())
-            {
-                context.Remove(driverRanking);
-                context.SaveChanges();
-            }
-        }
-
-        public DriverRanking Get(Expression<Func<DriverRanking, bool>> filter)
-        {
-            using (FormulaOneContext context = new FormulaOneContext())
-            {
-                return context.Set<DriverRanking>().SingleOrDefault(filter);
-            }
-        }
-
-
     }
 }

@@ -9,54 +9,14 @@ using System.Text;
 using System.Threading.Tasks;
 using FormulaOne.DataAccess.Models;
 using System.Linq.Expressions;
+using FormulaOne.Bussiness.Abstract.Common;
 
 namespace FormulaOne.Business.Concrete
 {
-    public class CarManager : ICarService
+    public class CarManager : RepositoryService<Car>, ICarService
     {
-        private ICarDal _carDal;
-        public CarManager(ICarDal carDal)
+        public CarManager(IEntityRepository<Car> entityRepository) : base(entityRepository)
         {
-            _carDal = carDal;
         }
-
-        public List<Car> GetAll()
-        {
-            return _carDal.GetAll();
-        }
-
-        public void Add(Car car)
-        {
-            using FormulaOneContext context = new();           
-                context.Add(car);
-                context.SaveChanges();
-            
-        }
-        public void Update(Car car)
-        {
-            using (FormulaOneContext context = new())
-            {
-                context.Update(car);
-                context.SaveChanges();
-            }
-        }
-        public void Delete(Car car)
-        {
-            using (FormulaOneContext context = new())
-            {
-                context.Remove(car);
-                context.SaveChanges();
-            }
-        }
-
-        public Car Get(Expression<Func<Car, bool>> filter)
-        {
-            using (FormulaOneContext context = new())
-            {
-                return context.Set<Car>().SingleOrDefault(filter);
-            }
-        }
-
-
     }
 }
